@@ -1,0 +1,17 @@
+Package: m3p3
+Type: Package
+Title: Implement the modified 3+3 design
+Version: 0.1.0
+Author: Tianshu Zhang
+Maintainer: The package maintainer <tzh1@iu.edu>
+Description: Two functions are included. First simulates a single dose-escalation studies with modified 3+3 design to find the MTD. The other one simulates n dose-escalation studies with the modified 3+3 design and provides summarized results
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/tissuezhang/m3p3
+Imports: 
+    Iso,
+    stats,
+    utils,
+    UBCRM
+RoxygenNote: 7.2.3
